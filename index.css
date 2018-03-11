@@ -1,0 +1,236 @@
+body {
+font-family: 'Cinzel', serif;
+position: relative;
+}
+.main {
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+.modal {
+  
+position: fixed;
+top: 0;
+left: 0;
+z-index: 100;
+text-align: center;
+background-color: rgba(0,0,0,0.75);
+width: 100%;
+display: none;
+  height: 100vh;
+}
+.modal div a {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+  top: 350px;
+}
+.modal div img {
+  float: left;
+}
+.modal div {
+  display: inline-block;
+  padding: 20px;
+}
+
+.resumeLink {
+  cursor: pointer;
+}
+
+.backGroundImage {
+    background-image: url("https://i.imgur.com/7fCBByG.jpg");
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+li {
+  text-align: center;
+  float: left;
+  
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #090934;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+  
+  background-color: red;
+  
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.container {
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  bottom: 100px;
+}
+.container div {
+  width: 100vw;
+  text-align: center;
+}
+.name h1 {
+  color: white;
+  font-size: 100px;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+  font-weight: 10;
+}
+
+h2 {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  margin: 0 25px;
+}
+a h2 {
+  
+}
+.foreGround {
+  position: relative;
+  z-index: 1
+}
+
+.content-box {
+  background-image: url('http://c1.peakpx.com/wallpaper/491/89/84/black-night-new-york-lights-bridge-wallpaper.jpg');
+  background-size: cover;
+  width: 100%;
+  min-height: 600px;
+  margin-bottom: 300px;
+}
+
+
+.content-box h1, .content-box p {
+  
+  padding: 20px;
+  	text-shadow:
+		-1px -1px 0 lightgreen,
+		1px -1px 0 lightgreen,
+		-1px 1px 0 lightgreen,
+		1px 1px 0 lightgreen;
+		color: black;
+    font-size: 24px;
+  
+}
+
+.content-box h3 {
+  text-align: center;
+  padding: 200px;
+}
+
+.content-box2 {
+  
+  background-image: url('http://www.lexmarusa.com/wp-content/uploads/2015/01/532188319.jpg');
+    width: 100%;
+  height: 600px;
+  margin-bottom: 300px;
+  text-align: center;
+  padding: 30px;
+}
+.content-box2 h1 {
+  font-size: 50px;
+text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+ .content-box2 h3 {
+     font-size: 30px;
+  color: lightblue;
+  padding: 70px;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.content-box3 {
+  background-image: url('http://sf.co.ua/13/01/wallpaper-2603567.jpg');
+  background-size: cover;
+  width: 100%;
+  min-height: 600px;
+  margin-bottom: 300px;
+   padding: 30px;
+}
+.boxed {
+  margin-top: 30px;
+  margin-left: 20px;
+  border: 1px solid green ;
+  float:left;
+  width:41%;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  background-color: green;
+  border-radius: 8px;
+}
+.boxedDesign {
+  text-decoration: none;
+  color: white;
+  align-content: center;
+}
+.inner {
+  width: 100vw;
+  text-align: center;
+  margin: 5px;
+}
+.boxed:nth-child(even){
+  clear:left;
+}
